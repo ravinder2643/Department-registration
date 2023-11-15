@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $password = $_POST["password"];
         // Add code to validate and process login/registration data here
 
-        // Example: Check for a successful login and redirect
+        // Example: Check for a successful login  and redirect
         if ($username === "ravi" && $password === "1234") {
             header("Location: success.html");
             exit;
